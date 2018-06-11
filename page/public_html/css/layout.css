@@ -89,7 +89,7 @@ nav{
 }
 
 #admin_main{
-    position:  absolute;
+    position:  relative;
     top:0px;
     max-width: 100%;
     min-height: 100%;
@@ -321,7 +321,7 @@ nav{
 .footer > .text-muted {
     color: #000;
     padding-left: 20px;
-    margin: 15px 0;
+    margin: 15px 0 15px 16px;;
 }
 
 .footer > .text-muted a {
@@ -330,5 +330,5 @@ nav{
 }
 
 .content{
-    margin:65px 16px 16px 16px;
+    margin:45px 16px 16px 16px;
 }
