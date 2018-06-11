@@ -3,6 +3,7 @@ $(function () {
     $.sidebarMenu($('.sidebar-menu'));
     reset_layout();
     resetFooter();
+     $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 });
 
 $(window).resize(function () {

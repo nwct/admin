@@ -38,6 +38,26 @@ nav{
     margin-left: 12px;
 }
 
+.pass-btn,
+.exit-btn{
+    color:#ccc;
+    margin-top:15px;;
+    margin-right: 12px; 
+}
+
+.pass-btn:hover,
+.exit-btn:hover{
+    color:#fff;
+    cursor: pointer;
+}
+
+.pass-btn i,
+.exit-btn i{
+    font-size: 18px;
+    transition: margin-left .3s linear,opacity .5s ease; 
+}
+
+
 .nva-btn{
     color:#ccc;
     margin-top:15px;;
@@ -53,6 +73,8 @@ nav{
     font-size: 18px;
     transition: margin-left .3s linear,opacity .5s ease; 
 }
+
+
 
 #admin_left{
     position: fixed; 
